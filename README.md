@@ -1,5 +1,5 @@
-![Alt text](./example.svg)
-<img src="./example.svg">
+![Alt text](Logo)
+<img src="https://raw.githubusercontent.com/byteslicer/vue-random-avatar/master/example.svg?sanitize=true">
 
 # vue-random-avatar
 
