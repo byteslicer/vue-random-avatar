@@ -1,0 +1,7 @@
+.DS_Store
+.git
+npm-debug.log
+.editorconfig
+.eslintrc.js
+.gitignore
+build/
