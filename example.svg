@@ -1,4 +1,9 @@
-<svg viewBox="0 0 160 160">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1" baseProfile="full"
+    viewBox="0 0 160 160">
   <g>
     <circle cx="80" cy="80" r="60" fill="transparent" stroke="#ae5a41" stroke-width="30" stroke-dasharray="376.99111843077515" stroke-dashoffset="344.6585252282106" transform="rotate(-90, 80, 80)" shape-rendering="optimizeQuality"></circle>
     <circle cx="80" cy="80" r="60" fill="transparent" stroke="#1b85b8" stroke-width="30" stroke-dasharray="376.99111843077515" stroke-dashoffset="365.54692069658694" transform="rotate(-60, 80, 80)" shape-rendering="optimizeQuality"></circle>
