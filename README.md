@@ -25,6 +25,7 @@ Import and register it in your component
   </div>
 </template>
 
+<script>
 import avatar from 'vue-random-avatar'
 
 export default {
@@ -35,4 +36,5 @@ export default {
     }
   }
 }
+</script>
 ```
