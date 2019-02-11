@@ -1,20 +1,21 @@
 <template>
   <svg viewBox="0 0 160 160">
-      <g>
-        <circle v-for="(circle, index) in circles"
-          :key="index"
-          :cx="cx"
-          :cy="cy"
-          :r="radius"
-          fill="transparent"
-          :stroke="circle.color"
-          :stroke-width="strokeWidth"
-          :stroke-dasharray="circumference"
-          :stroke-dashoffset="circle.strokeDashOffset"
-          :transform="circle.transform"
-          shape-rendering="optimizeQuality">
-        </circle>
-      </g>
+    <g>
+      <circle
+        v-for="(circle, index) in circles"
+        :key="index"
+        :cx="cx"
+        :cy="cy"
+        :r="radius"
+        fill="transparent"
+        :stroke="circle.color"
+        :stroke-width="strokeWidth"
+        :stroke-dasharray="circumference"
+        :stroke-dashoffset="circle.strokeDashOffset"
+        :transform="circle.transform"
+        shape-rendering="optimizeQuality"
+      />
+    </g>
   </svg>
 </template>
 
@@ -59,7 +60,7 @@ export default {
         getColor = () => rng.colorHSL(this.colors.saturation || 100, this.colors.lightness || 40)
       }
 
-      return this.calcValues(rng, [], 1.0).map(x => {//[...this.sortedValues(rng)].map(x => {
+      return this.calcValues(rng, [], 1.0).map(x => {
         let resOffset = angleOffset
         angleOffset = x * 360 + angleOffset
         let strokeDiff = x * circumference
