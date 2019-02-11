@@ -31,6 +31,14 @@ export default {
     colors: {
       default: () => ["#1b85b8", "#5a5255", "#559e83", "#ae5a41", "#c3cb71"], //({ lightness: 40, saturation: 80 })
       type: [Array, Object]
+    },
+    maxDivisions: {
+      default: 4,
+      type: Number
+    },
+    epsilon: {
+      default: 0.01,
+      type: Number
     }
   },
 
@@ -76,9 +84,9 @@ export default {
 
   methods: {
     calcValues(rng, result, start) {
-      const subs = rng.integer(1, 4)
+      const subs = rng.integer(1, this.maxDivisions)
       const part = start / subs
-      if (subs == 1 || part <= 0.01) {
+      if (subs == 1 || part <= this.epsilon) {
         result.push(start)
         return result
       }
