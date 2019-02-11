@@ -4,4 +4,5 @@ npm-debug.log
 .editorconfig
 .eslintrc.js
 .gitignore
+example.svg
 build/
