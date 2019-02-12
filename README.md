@@ -41,7 +41,7 @@ export default {
 
 ## Props
 
-Play around with `epsilon` and `max-mivisions` props to find something that you like
+Play around with `epsilon` and `max-divisions` props to find something that you like
 
 | Name            | Description                                                                                               | Type            |
 | --------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
