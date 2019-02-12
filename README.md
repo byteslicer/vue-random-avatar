@@ -38,3 +38,18 @@ export default {
 }
 </script>
 ```
+
+## Props
+
+Play around with `epsilon` and `max-mivisions` props to find something that you like
+
+| Name            | Description                                                                                               | Type            |
+| --------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
+| `seed`          | String used for seeding the random generator                                                              | `String`        |
+| `colors`        | `Array` of valid CSS colors or `Object` with `{ saturation: 100, lightness: 40 }` for hsl random color    | `Array|Object`  |
+| `epsilon`       | Recursion stops if the subdivision is getting smaller then epsilon. Default: `0.01`                       | `Number`        |
+| `max-divisions` | Maximum random number of cell splitting that could be generated. Default: `4`                             | `Number`        |
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
