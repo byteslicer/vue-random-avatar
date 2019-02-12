@@ -25,7 +25,7 @@ import Random from './random'
 export default {
   props: {
     seed: {
-      default: "Byteslicers",
+      default: "",
       type: String
     },
     colors: {
