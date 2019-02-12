@@ -4,6 +4,12 @@
   "description": "Offline random avatar generation using name seeded random",
   "author": "Mel Teichmann (Byteslicer)",
   "license": "MIT",
+  "repository": "github:byteslicer/vue-random-avatar",
+  "keywords": [
+    "random",
+    "avatar",
+    "vue"
+  ],
   "main": "dist/vue-random-avatar.umd.js",
   "module": "dist/vue-random-avatar.esm.js",
   "unpkg": "dist/vue-random-avatar.min.js",

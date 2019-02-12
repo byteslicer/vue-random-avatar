@@ -29,7 +29,7 @@ Import and register it in your component
 import avatar from 'vue-random-avatar'
 
 export default {
-  components: { avatar }
+  components: { avatar },
   data() {
     return {
       username: "Byteslicer"
