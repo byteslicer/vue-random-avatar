@@ -1,6 +1,6 @@
 {
   "name": "vue-random-avatar",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Offline random avatar generation using name seeded random",
   "author": "Mel Teichmann (Byteslicer)",
   "license": "MIT",
